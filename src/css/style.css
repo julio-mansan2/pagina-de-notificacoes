@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;800&display=swap');
+
+body {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    background: var(--light-grayish-blue-2);
+    padding: 7% 25%;
+}
+
+.container {
+    background: var(--very-light-grayish-blue);
+    border-radius: 10px;
+    padding: 1.25rem;
+    position: relative;
+}
+
+.container header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1.8rem;
+}
+
+.container header div {
+    display: flex;
+    gap: 0.6rem;
+    align-items: center;
+}
+
+.container header h1 {
+    font-size: 1.5rem;
+}
+
+.container .notifications-quantity {
+    padding: 0.2rem 0.6rem;
+    background: var(--blue);
+    font-weight: 800;
+    color: var(--white);
+    border-radius: 5px;
+}
+
+label {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 1rem;
+    color: var(--dark-grayish-blue);
+    transition: 0.3s;
+}
+
+label:hover {
+    color: var(--blue);
+    cursor: pointer;
+}
+
+#radio {
+    visibility: hidden;
+    position: absolute;
+}
+
+.container section {
+    display: flex;
+    flex-direction: column;
+    gap: 0.6rem;
+}
+
+.notification {
+    display: flex;
+    gap: 1.25rem;
+    align-items: center;
+    border-radius: 10px;
+    padding: 1.25rem 2.1rem;
+    position: relative;
+}
+
+.new {
+    background: var(--light-grayish-blue-2);
+}
+
+.read {
+    display: none;
+}
+
+.circle {
+    content: "";
+    width: 0.6rem;
+    position: absolute;
+    height: 0.6rem;
+    background: var(--red);
+    justify-self: flex-end;
+    right: 2%;
+    border-radius: 100%;
+}
+
+.notification p {
+    color: var(--dark-grayish-blue);
+    margin-bottom: 0.3rem;
+}
+
+.notification .nick {
+    font-weight: 800;
+    transition: 0.3s;
+}
+
+.notification .nick:hover {
+    color: var(--blue);
+}
+
+.notification .post {
+    color: var(--dark-grayish-blue);
+    font-weight: 800;
+    transition: 0.3s;
+}
+
+.notification .post:hover {
+    color: var(--blue);
+}
+
+.notification span {
+    color: var(--grayish-blue);
+    font-size: 0.8rem;
+}
+
+.rizky {
+    display: flex;
+    align-items: center;
+    gap: 1.25rem;
+    align-self: flex-start;
+    flex-direction: column;
+}
+
+.rizky-notification img {
+    align-self: flex-start;
+}
+
+.rizky div {
+    align-self: flex-start;
+}
+
+.message {
+    padding: 0.6rem;
+    transition: 0.3s;
+    border-radius: 10px;
+    border: 1px solid var(--grayish-blue);
+}
+
+.message:hover {
+    background: var(--light-grayish-blue-1);
+    border: none;
+}

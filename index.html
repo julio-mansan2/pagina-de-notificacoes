@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto Página de Notificações - Frontend Mentor</title>
+    <link rel="shortcut icon" href="./src/assets/images/favicon-32x32.png" type="image/x-icon">
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/style.css">
+    <link rel="stylesheet" href="./src/css/variables.css">
+    <link rel="stylesheet" href="./src/css/responsive.css">
+</head>
+<body>
+    <main class="container">
+        <header>
+            <div>
+                <h1>Notifications</h1>
+                <span class="notifications-quantity">7</span>
+            </div>
+            <label for="radio">Mark all as read</label>
+            <input type="radio" name="" id="radio">
+        </header>
+        <section>
+            <article class="notification new">
+                <img src="./src/assets/images/avatar-mark-webber.webp" alt="Mark Webber">
+                <div class="notification-content">
+                    <p><a href="/" class="nick">Mark Webber</a> &nbsp reacted to your recent post &nbsp <a href="/" class="post">My first tournament today!</a></p>
+                    <span>1m ago</span>
+                </div>
+                <div class="circle"></div>
+            </article>
+            <article class="notification new">
+                <img src="./src/assets/images/avatar-angela-gray.webp" alt="Angela Gray">
+                <div class="notification-content">
+                    <p><a href="/" class="nick">Angela Gray</a> &nbsp  followed you </p>
+                    <span>5m ago</span>
+                </div>
+                <div class="circle"></div>
+            </article>
+            <article class="notification new">
+                <img src="./src/assets/images/avatar-jacob-thompson.webp" alt="Jacob Thompson">
+                <div class="notification-content">
+                    <p><a href="/" class="nick">Jacob Thompson</a> &nbsp  has joined your group &nbsp  <a href="/" class="post">Chess Club</a></p>
+                    <span>1 day ago</span>
+                </div>
+                <div class="circle"></div>
+            </article>
+            <article class="notification rizky-notification new">
+                <img src="./src/assets/images/avatar-rizky-hasanuddin.webp" alt="Rizky Hasanuddin">
+                <div class="rizky">
+                    <div class="notification-content">
+                        <p><a href="/" class="nick">Rizky Hasanuddin</a> &nbsp  sent you a private message &nbsp </p>
+                        <span>5 days ago</span>
+                    </div>
+                    <a href="/" class="message">
+                        <p> Hello, thanks for setting up the Chess Club. I've been a member for a few weeks now and I'm already having lots of fun and improving my game.</p>
+                    </a>
+                </div>
+                <div class="circle"></div>
+            </article>
+            <article class="notification new kimberly">
+                <img src="./src/assets/images/avatar-kimberly-smith.webp" alt="Kimberly Smith">
+                <div class="notification-content">
+                    <p><a href="/" class="nick">Kimberly Smith</a> &nbsp  commented on your picture &nbsp </p>
+                    <span>1 week ago</span>
+                </div>
+                <a href="/">
+                    <img src="./src/assets/images/image-chess.webp" alt="Chess">
+                </a>
+                <div class="circle"></div>
+            </article>
+            <article class="notification new">
+                <img src="./src/assets/images/avatar-nathan-peterson.webp" alt="Nathan Peterson">
+                <div>
+                    <p><a href="/" class="nick">Nathan Peterson</a> &nbsp  reacted to your recent post &nbsp  <a href="/" class="post">5 end-game strategies to increase your win rate</a></p>
+                    <span>2 weeks ago</span>
+                </div>
+                <div class="circle"></div>
+            </article>
+            <article class="notification new">
+                <img src="./src/assets/images/avatar-anna-kim.webp" alt="Anna Kim">
+                <div class="notification-content">
+                    <p><a href="/" class="nick">Anna Kim</a> &nbsp left the group &nbsp  <a href="/" class="post">Chess Club</a></p>
+                    <span>2 weeks ago</span>
+                </div>
+                <div class="circle"></div>
+            </article>
+        </section>
+    </main>
+    <script src="./src/js/index.js"></script>
+</body>
+</html>

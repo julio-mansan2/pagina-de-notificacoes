@@ -1,0 +1,10 @@
+:root {
+    --light-grayish-blue-2: hsl(205, 33%, 90%);
+    --very-light-grayish-blue: hsl(210, 60%, 98%);
+    --blue: hsl(219, 85%, 26%);
+    --white: hsl(0, 0%, 100%);
+    --dark-grayish-blue: hsl(219, 12%, 42%);
+    --red: hsl(1, 90%, 64%);
+    --grayish-blue: hsl(219, 14%, 63%);
+    --light-grayish-blue-1: hsl(211, 68%, 94%);
+}
